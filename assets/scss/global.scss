@@ -1,0 +1,23 @@
+$primary-color: #3b4cca;
+$primary-font: 'Pixelify Sans';
+body, html {
+    background-color: $primary-color;
+    margin: 0;
+    padding: 0;
+    font-family: $primary-font;
+    background-image: url('../img/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+button {
+  font-family: $primary-font;
+}
+
+.dark-mode body, .dark-mode html {
+  background-image: url('../img/wallpaper-dark.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
